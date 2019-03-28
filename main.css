@@ -1,0 +1,771 @@
+body,html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+    color: #333;
+}
+.content{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.margin_padding_0 {
+    margin: 0;
+    padding: 0;
+}
+
+#godown {
+    height: 50px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.heightJ {
+    height: auto;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-collapse-center {
+    text-align: center;
+}
+
+#sticky_header:sticky {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-color: black;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+    -moz-transition: all 500ms ease-out 0s;
+    -o-transition: all 500ms ease-out 0s;
+    -webkit-transition: all 500ms ease-out 0s;
+    transition: all 500ms ease-out 0s;
+}
+
+#sticky_header {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 999;
+}
+.font_PF{
+    font-size: 12px;
+    font-family: PingFangTC-Regular, sans-serif;
+}
+.color_b {
+    color: rgb(52, 52, 240);
+}
+
+.color_r {
+    color: #FB565A;
+}
+.bc_color_gray{
+    background-color: rgb(247,247,247,1);
+}
+
+.div_right_bottom {
+    width: auto;
+    height: auto;
+    float: right;
+    position: fixed;
+    right: 5%;
+    bottom: 9%;
+    z-index: 20;
+    visibility: visible;
+    transition: 0.2s;
+    _position: absolute;
+    /* position fixed for IE6 */
+}
+
+.a_top:link,
+.a_top:visited {
+    margin-left: 24px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: #FB565A;
+    font-weight: bold;
+    border: 2px solid #FB565A;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.a_top:hover {
+    background-color: #FB565A;
+    color: white;
+}
+
+.banner_text {
+    height: 250px;
+    background-color: rgb(251, 86, 90);
+    text-align: center;
+    font-size: 45px;
+    color: honeydew;
+    font-style: below;
+    justify-content:center;
+    align-items:center;
+    display:-webkit-flex;
+}
+#logo_banner{
+    width: 90px;
+    height: auto;
+}
+
+#money_phone {
+    display: block;
+    margin: 2% auto auto auto;
+    text-align: center;
+}
+.underline{
+    line-height: 1.8em;
+    border-bottom: 4px solid #FB565A;
+    padding-bottom: 0px;
+}
+#introduce {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0;
+    padding-bottom: 21px;
+}
+
+#how {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0;
+    padding-bottom: 21px;
+}
+
+#certificate,
+#app,
+#happy,
+#contact{
+    padding: 0;
+    padding-bottom: 21px;
+    min-height:100%; 
+}
+
+#logo_bar {
+    position: absolute;
+}
+#intro_title1{
+    font-size: 34px; 
+    font-family: Microsoft JhengHei,Arial-Black;
+    font-weight: 600;
+    width: 220px; 
+    height: 100px;
+    color: rgb(0,0,0,1);
+    margin:64px 180px 64px auto;
+    text-align: left;
+}
+#intro_content1{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 600;
+    width: 369px;
+    height: auto;
+    text-align: justify; 
+    color: rgb(0, 0, 0, 1);
+    margin: 64px auto 64px 10px;
+    line-height: 1.7em;
+}
+
+#go_link{
+    background-color: #FB565A;
+    padding:10px 15px; 
+    color: white;
+    margin: -65px auto 20px 220px;
+    display: block;
+    width: 150px;
+    font-size: 14px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 500;
+
+}
+
+#intro_title2{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width:145px; 
+    height:150px;
+    text-align: left;
+    
+    margin: 50px auto -2% 230px;
+}
+#intro_content2{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 600;
+    width: 666px;
+    height: auto;
+    color: rgb(0, 0, 0, 1);
+    text-align: left;
+    line-height: 1.6em; 
+    margin:50px -265px 44px auto;
+
+}
+#intro_title3{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 155px; 
+    height:50px;
+    margin:45px 248px 37px auto;
+    text-align: left;   
+}
+#sun_png{
+    display: block;
+    margin-left: 220px;
+    margin-bottom: -0%;
+}
+
+table,
+th,
+td {
+    padding: 0.5% 1%;
+    font-family: Microsoft JhengHei;
+    font-weight: 600;
+    font-size: 15px;
+}
+table tr td:first-child {
+    text-align: right;
+    white-space: nowrap;
+    min-width: 70px;
+    width:10%
+}
+table tr td:nth-child(2) {
+    width: 10px;
+    border-right: 2px solid #D8D8D8;
+    min-width:10px;
+}
+table tr td:nth-child(3) {
+    min-width:10px;
+    width:10px; 
+    max-width:10px;
+}
+table tr td:last-child {
+    text-align: left;
+    border-width: 0 1 1 1;
+}
+td {
+    line-height: 2.0em;
+}
+table {
+    width: 640px;
+    margin: auto auto 10% -330px;
+    
+}
+#how_title1{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 125px; 
+    height: 84px;
+    text-align: left;
+    margin:72px 275px 112px auto;
+    
+}
+#how_content1{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 1);
+    text-align: left;
+    width: 660px; 
+    height: auto;
+    margin:58px auto -55px -130px;
+}
+#how_title2{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 155px;
+    height: 44px;
+    margin: 5% auto 2% 230px;
+}
+#how_content2{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 600;
+    max-width: 815px;
+    height: auto;
+    color: rgb(0, 0, 0, 1);
+    text-align: justify;
+    margin: 3% auto 5% -430px;
+    float: left;
+}
+
+/* qq 泡泡框 */
+.mwt_border{
+    width: 135px;
+    height: auto;
+    text-align: left;
+    background-color: #FB565A;
+    position: relative;
+    border: solid 0px #FB565A;
+    color: white;
+    font-size: 14px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 500;
+    display: block;
+    margin: -75px 260px auto auto ;
+    padding:5px 10px;
+
+}
+/* 箭頭上 */
+.mwt_border .arrow_t_int{
+    width:0px;
+    height:0px;
+    border-width:11px;
+    border-style:solid;
+    border-color:transparent transparent #FB565A transparent ;
+    position:absolute;
+    top:-22px;
+    left:15px;
+}
+
+#gift_png{
+    display: block;
+    margin-left: 320px;
+    margin-bottom: -0%;
+}
+
+
+#app_title1{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 2% auto;
+}
+
+#app_content1{
+    width: 60%;
+    height: 95px;
+    min-width: 260px;
+    max-width: 370px;
+    margin: 1% 40px 5% auto;
+    display:block;
+    background-image: url('android_download.png');
+    background-size: 100% 100%;
+}
+
+#app_content2{
+    width: 60%;
+    height: 95px;
+    min-width: 260px;
+    max-width: 370px;
+    margin: 1% auto 5% 30px;
+    display:block;
+    background-image: url('ios_download.png');
+    background-size: 100% 100%;
+}
+
+#happy_title1{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 80px;
+    height: auto;
+    margin: 85px  290px  auto  auto;
+}
+#happy_content1{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 700;
+    width: 330px;
+    height: auto;
+    margin: 60px  auto  -140px  -130px;
+}
+#list_png{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 355px;
+    margin-bottom: 100px;
+}
+
+#contact_title1{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;    
+    font-weight: 600;
+    width: 80px;
+    height: auto;
+    margin: 85px  290px  auto  auto;
+}
+#contact_content1{
+    font-size: 15px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 700;
+    width: 500px;
+    height: auto;
+    margin: 106px  auto  -50px  -145px;
+    line-height: 1.8;
+}
+#QA_png{
+    width: 129px;
+    height: 129px;
+    display: block;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+#certificate_title1{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 120px;
+    height: auto;
+    margin: 54px 200px -45px auto;
+}
+#certificate_content1{
+    font-size: 16px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular,sans-serif;
+    font-weight: 600;
+    width: 390px;
+    height: auto;
+    margin:64px auto 78px -20px;
+    line-height: 1.6;
+}
+#certificate_title2{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 155px;
+    height: auto;
+    margin: 54px auto -80px 130px;
+}
+#certificate_content2{
+    font-size: 16px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular,sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    width: 344px;
+    height: auto;
+    margin:64px -20px 35px auto;
+}
+#certificate_title3{
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 120px;
+    height: auto;
+    margin: 54px 120px -60px auto;
+}
+#certificate_content3{
+    font-size: 16px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular,sans-serif;
+    font-weight: 600;
+    width: 290px;
+    height: auto;
+    margin:88px auto 89px 30px;
+}
+#certificate_title4{    
+    font-size: 34px;
+    font-family: Microsoft JhengHei,PingFangTC-Semibold,sans-serif;
+    font-weight: 600;
+    width: 155px;
+    height: auto;
+    margin: 54px auto -100px 130px;
+}
+#certificate_content4{
+    font-size: 16px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular,sans-serif;
+    font-weight: 600;
+    width: 370px;
+    height: auto;
+    margin:79px -20px 81px auto;
+}
+#step1_png{
+    display: block;
+    width: 111px;
+    height: 111px;
+    margin-right: 360px;
+    float: right;
+}
+#step2_png{
+    display: block;
+    width: 122px;
+    height: 129px;
+    margin-left: 380px;
+}
+#step3_png{
+    display: block;
+    width: 121px;
+    height: 120px;
+    margin-right: 350px;
+    float: right;
+}
+#step4_png{
+    display: block;
+    width: 145px;
+    height: 147px;
+    margin-left: 360px;
+}
+#RxT1uQP4g{
+    color: white;
+    background-color: #FB565A;
+    width: 82px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    display: block;
+    font-size: 14px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-top: -35px;
+
+}
+#wQz58RXPxPg{
+    color: white;
+    background-color: #FB565A;
+    width: 125px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    display: block;
+    font-size: 14px;
+    font-family: Microsoft JhengHei,PingFangTC-Regular, sans-serif;
+    font-weight: 500;
+}
+
+#intro_title1,
+#intro_title2,
+#intro_title3,
+#intro_content1,
+#intro_content2,
+#how_title1,
+#how_content1,
+#how_title2,
+#how_content2 {
+    border: 0px solid #999;
+}
+
+.border0{
+    border: 0px solid #999;
+}
+.png_shift {
+    float: right;
+    margin-right: -13px;
+}
+
+.J_div {
+    margin: auto;
+}
+#footer{
+    background-color:rgb(251,86,90);
+    padding:2px 0 1px 5% ;
+    color: white;
+    font-size: 90%;
+    height: 21px;
+    position: relative;
+    margin-top: -21px;
+}
+#footer2{
+    background-color:rgb(251,86,90);
+    padding:2px 0 1px 5% ;
+    color: white;
+    font-size: 90%;
+    height: 21px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width:1001px) {
+    .pic_size {
+        width: 65%;
+        max-width: 750px;
+    }
+
+    #logo_bar {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .pic_size {
+        width: 70%;
+    }
+
+    #logo_bar {
+        visibility: hidden;
+    }
+}
+
+/* 畫面縮小 全部排版置中 */
+@media only screen and (max-width:768px) {
+    
+    /*introduction  活動介紹*/
+    #intro_title1,
+    #intro_title2,
+    #intro_title3{  
+        font-size: 30px !important;
+        text-align: center !important;
+        float: none !important;
+        margin: 4% auto !important;
+        height: auto !important;
+        font-weight: 600 !important;
+    }
+    #intro_content1,
+    #intro_content2{
+        font-size: 14px !important;
+        width: 90% !important;
+        margin: auto !important;
+        height: auto !important;
+        text-align:justify !important;
+        line-height: 1.8em !important;
+        padding-bottom: 5% !important;
+    }
+    table {
+        max-width: 640px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%
+        
+    }
+    #go_link{
+        display: none !important;
+    }
+    #sun_png{
+        display: none !important;
+    }
+
+    /*lottery  抽獎辦法*/
+    #how_title1,
+    #how_title2{ 
+        font-size: 30px !important;
+        text-align: center !important;
+        float: none !important;
+        margin: 4% auto !important;
+        font-weight: 600 !important;
+        width: auto;
+        text-align: center;
+    }
+    #how_title1 br{
+        display: none;
+    }
+
+    #how_content1,
+    #how_content2{
+        font-size: 14px !important;
+        width: 90% !important;
+        margin: auto !important;
+        height: auto !important;
+        text-align:justify !important;
+        line-height: 1.5em !important;
+        padding-bottom: 5% !important;
+        float: none !important;
+    }
+    #gift_png{
+        display: none ;
+    }
+    #dAiS6JXm{
+        display: none ;
+    }
+}
+
+/* app介紹 happy中獎名單 contact聯絡方式 certificate區塊鏈存證 RWD */
+@media only screen and (max-width: 991px ){
+    #app_content1,
+    #app_content2,
+    #happy_title1,
+    #contact_title1,
+    #certificate_title1,
+    #certificate_title2,
+    #certificate_title3,
+    #certificate_title4
+    {
+        width: auto;
+        text-align: center;
+        margin: 3% auto ;
+    }
+    
+    #happy_content1,
+    #contact_content1,
+    #certificate_content1,
+    #certificate_content2,
+    #certificate_content3,
+    #certificate_content4{
+        margin: 3% auto 7% auto ;
+    }
+
+    #contact_content1{
+        width: 80%;
+        text-align: left;
+    }
+
+    #happy_title1 br,
+    #contact_title1 br,
+    #contact_content1 br,
+    #certificate_title1 br,
+    #certificate_title2 br,
+    #certificate_title3 br,
+    #certificate_title4 br,
+    #certificate_content1 br
+    {
+        display: none;
+    }
+
+    #QA_png{
+        display: none;
+    }
+    #step1_png,
+    #step2_png,
+    #step3_png,
+    #step4_png{
+        display: none;
+    }
+    #list_png{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+     #logo_bar {
+        visibility: hidden;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #logo_bar {
+        visibility: hidden;
+        margin-left: 10%;
+    }
+}
+@media only screen and (min-width:500px) {
+    #logo_banner {
+        width: 100px;
+    }
+    #jqkAce br{
+        display: none;
+    }
+}
+/* Sarfri bug ?? */
+.row:before, 
+.row:after {
+    display: none !important;
+}
