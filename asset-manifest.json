@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Web-Golden-1/static/css/main.a617e044.chunk.css",
+    "main.js": "/Web-Golden-1/static/js/main.2e89f028.chunk.js",
+    "main.js.map": "/Web-Golden-1/static/js/main.2e89f028.chunk.js.map",
+    "runtime-main.js": "/Web-Golden-1/static/js/runtime-main.751bd515.js",
+    "runtime-main.js.map": "/Web-Golden-1/static/js/runtime-main.751bd515.js.map",
+    "static/js/2.39bdd723.chunk.js": "/Web-Golden-1/static/js/2.39bdd723.chunk.js",
+    "static/js/2.39bdd723.chunk.js.map": "/Web-Golden-1/static/js/2.39bdd723.chunk.js.map",
+    "static/js/3.98021633.chunk.js": "/Web-Golden-1/static/js/3.98021633.chunk.js",
+    "static/js/3.98021633.chunk.js.map": "/Web-Golden-1/static/js/3.98021633.chunk.js.map",
+    "index.html": "/Web-Golden-1/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/Web-Golden-1/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.39bdd723.chunk.js.LICENSE.txt": "/Web-Golden-1/static/js/2.39bdd723.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Web-Golden-1/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.751bd515.js",
+    "static/js/2.39bdd723.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.2e89f028.chunk.js"
+  ]
+}
