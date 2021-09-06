@@ -1,0 +1,20 @@
+{
+  "name": "web-golden-1",
+  "homepage": "https://jason1950.github.io/web-golden-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason1950/Web-Golden-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jason1950/Web-Golden-1/issues"
+  },
+  "homepage": "https://github.com/Jason1950/Web-Golden-1#readme"
+}
